@@ -1,0 +1,26 @@
+<header class="site-header">
+
+	<div class="wrapper">
+
+		<div class="header-col-wrapper">
+
+			<div class="header-col header-col-1 alcenter">
+				<span class="lpfpfonts">
+					{{ page.title }}
+				</span>
+			</div>
+
+			<div class="header-col header-col-2 alcenter fixsocial">
+				{% for social in site.social %}
+				<span><a href="{{ social[1] }}" data-toggle="tooltip" data-placement="bottom"
+				title="{{ site.author.name }}’s {{ social[0] }}" target="_blank">
+					<i class="fa fa-2x fa-{{ social[0] }}"></i>
+				</a></span>
+				{% endfor %}
+			</div>
+
+		</div>
+
+	</div>
+
+</header>

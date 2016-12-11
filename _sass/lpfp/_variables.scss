@@ -1,0 +1,38 @@
+/**
+ * Fonts
+ */
+
+@import url('../../assets/fonts/brainflower/stylesheet.css');
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$lab-font:         "brain_flowerregular", Helvetica;
+$font-mono:        'Inconsolata', monospace;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+/**
+ * Color
+ */
+$text-color:       #202020;
+$text-color-l:     lighten($text-color, 5%);
+$text-bq:          lighten($text-color, 35%);
+
+$hint:             #621187;
+
+$brand-color:      #EC11B5;
+$brand-color-d:    darken($brand-color, 15%);
+$brand-color-l:    lighten($brand-color, 25%);
+
+$background-color: #CBCBCB;
+$background-cell:  #CBCBCB;
+$post_bkg:         rgba(15, 9, 9, 0.85);
+
+
+// Width of the content
+$content-width:    1200px !default;
+$on-laptop:        800px !default;
+$on-palm:          600px !default;
