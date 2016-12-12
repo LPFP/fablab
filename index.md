@@ -1,13 +1,16 @@
 ---
 layout: home
 title: le petit fablab de paris
+hat: >
+  atelier de fabrication numérique<br>
+  dédié aux créations collaboratives et de bien commun.
 ---
 
-#### Le Petit FabLab de Paris est un atelier de fabrication numérique dédié aux créations collaboratives et de bien commun.
+# Note local
 
->Les locaux se destinent à accueillir aussi bien des bricoleurs et bricoleuses expérimentés que les simples curieux et curieuses. Nous organisons régulièrement des formations et initiations ouvertes à tous.
+>Le local se destine à accueillir aussi bien des bricoleurs et bricoleuses expérimentés que les simples curieux et curieuses. Nous organisons régulièrement des formations et initiations ouvertes à tous.
 
-Ouvert le week-end et certains soirs en semaine par des FabManagers bénévoles qui sont aussi porteurs de projet.
+#### Ouvert le week-end et certains soirs en semaine par des FabManagers bénévoles qui sont aussi porteurs de projet.
 
 >Le reste du temps, les locaux appartiennent à l'association AGECA.
 
@@ -17,7 +20,7 @@ Ouvert le week-end et certains soirs en semaine par des FabManagers bénévoles 
 
 # Comment venir au Fablab?
 
-Avant de venir, vérifier sur le calendrier les horaires et présences.
+>Avant de venir, vérifier sur le calendrier les horaires et présences.
 
 #### portes ouverte: Samedi et Dimanche de 14h à 16h
 

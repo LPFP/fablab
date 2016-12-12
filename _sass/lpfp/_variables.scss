@@ -3,8 +3,11 @@
  */
 
 @import url('../../assets/fonts/brainflower/stylesheet.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-body:        'Merriweather', serif;
+$font-pl:          'Montserrat', sans-serif;
 $lab-font:         "brain_flowerregular", Helvetica;
 $font-mono:        'Inconsolata', monospace;
 $base-font-size:   16px !default;
