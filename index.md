@@ -5,12 +5,28 @@ title: le petit fablab de paris
 
 # Petit mot du Petit Fab
 
+#### Le Petit FabLab de Paris est un atelier de fabrication numérique dédié aux créations collaboratives et de bien commun.
+
 >Les locaux se destinent à accueillir aussi bien des bricoleurs et bricoleuses expérimentés que les simples curieux et curieuses. Nous organisons régulièrement des formations et initiations ouvertes à tous.
 
-Le Petit FabLab de Paris est un atelier de fabrication numérique dédié aux créations collaboratives et de bien commun.
-Il est ouvert le week-end et certains soirs en semaine par des FabManagers bénévoles, qui sont aussi porteurs. Le reste du temps, les locaux appartiennent à l'association AGECA.
-[Des plages horaires](cal/) sont dédiées aux membres qui souhaitent développer leurs créations personnelles ou collectives.
+Ouvert le week-end et certains soirs en semaine par des FabManagers bénévoles qui sont aussi porteurs de projet.
 
+>Le reste du temps, les locaux appartiennent à l'association AGECA.
+
+{% include ageca.html %}
+
+---
+
+# Comment venir au Fablab?
+
+Avant de venir, vérifier sur le calendrier les horaires et présences.
+**portes ouverte :** Samedi et Dimanche de 14h à 16h
+
+>C’est une première approche conseillé, un membre du fablab sera présent pour répondre à vos questions.
+
+{% include map.html %}
+
+---
 
 # Les Fablab en France et ailleurs
 Les Fab Labs sont un réseau mondial de laboratoires locaux, qui dopent l’inventivité en donnant accès à des outils de fabrication numérique.
@@ -53,13 +69,7 @@ Dans notre structure associative, nous ne faisons plus de prestations.
 Si vous souhaitez utiliser nos machines ponctuellement, nous fonctionnons sur principe de contreparties et vous devrez participer à la vie du lieu. Cela se fera au cas par cas, et une réflexion en amont sera faites avec un membre du fablab au moins un mois à l’avance
 Par conséquent, les projets de dernière minutes seront systématiquement refusés.
 
-# COMMENT VENIR AU FABLAB ?
 
-Le Petit Fablab de Paris est un association structurée par des membres bénévoles, dans cette mesure nous  essayons d’ouvrir nos portes le plus régulièrement possible, pour autant, il est conseillé de vérifier sur le calendrier du fablab les horaires d’ouverture avant de venir.
-[Nos horaires d’ouverture](cal/) :
-
-**portes ouverte :** Samedi et Dimanche de 14h à 16h
->C’est une première approche conseillé, un membre du fablab sera présent pour répondre à vos questions.
 
 
 # Les ateliers LPFP

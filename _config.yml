@@ -37,6 +37,14 @@ mc:
   list_id: acbb278cdd
   hash: a1e7a5338e44ee5aea22927a9
 
+token:
+  mapbox: pk.eyJ1IjoibHBmcCIsImEiOiJjaXVuODhicTgwMDFrMnltaDNjcTFkZTdkIn0.AYCUkKPZjBA0uUtAgr4utw
+  mapillary: MjNrd04tNVh0NXlyaU42UW1oVXdodzo3Mzc4MTk0MmM0MjJhODk4
+
+mly_pkey: qTfbBM92Wrx2LNELoprtXw
+mlatlng: [48.855000, 2.391934]
+zoom: 17
+
 # Build settings
 jquery: 3.1.1.min.js
 fa: 4.7.0

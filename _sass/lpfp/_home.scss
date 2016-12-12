@@ -4,6 +4,7 @@
  */
 .site-header {
 	// border-top: 1px solid $text-color-l;
+	background: linear-gradient($background_shade, $trans);
 	padding: $spacing-unit 0;
 }
 
@@ -83,4 +84,105 @@
 			font-size: 18px;
 		}
 	}
+}
+
+/*
+ * AGECA
+ */
+
+.ageca-col-wrapper {
+	font-size: 1em;
+	color: $text-color;
+	margin-left: -$spacing-unit / 2;
+	@extend %clearfix;
+}
+
+.ageca-col {
+	float: left;
+	margin-bottom: $spacing-unit / 2;
+}
+
+.ageca-col-1 {
+	width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+	width:				 calc(75% - (#{$spacing-unit} / 2));
+}
+
+.ageca-col-2 {
+	width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+	width:				 calc(15% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+	.ageca-col {
+		float: none;
+		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+		width:				 calc(100% - (#{$spacing-unit} / 2));
+	}
+}
+
+hr {
+	display: block;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 75%;
+	color: $post_bkg;
+}
+
+.mapbox {
+	position:absolute;
+	top:0;
+	bottom:0;
+	height: 420px;
+	width: 100%;
+}
+#mly {
+	width: 100%;
+	height: 400px;
+}
+/* Custome Sprites for mapping and mapillary */
+
+.marker-red,
+.marker-blue,
+.pkey-sbig,
+.pkey,
+.pkey-a,
+.pkey-hl,
+.pkey-hls
+
+{ display: inline-block;
+	background: url('https://raw.githubusercontent.com/RobyRemzy/robyremzy.github.io/master/images/carto/sprites_mix.png') no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+	text-indent: -9999px;
+	text-align: left; }
+
+.marker-red { background-position: -1px -0px; width: 52px; height: 70px; }
+.marker-blue { background-position: -1px -213px; width: 37px; height: 50px; }
+.pkey-sbig { background-position: -1px -264px; width: 26px; height: 33px; }
+.pkey { background-position: -28px -264px; width: 18px; height: 24px; }
+.pkey-a { background-position: -28px -289px; width: 18px; height: 26px; }
+.pkey-hl { background-position: -1px -71px; width: 52px; height: 70px; }
+.pkey-hls { background-position: -1px -142px; width: 52px; height: 70px; }
+
+.modal {
+		display: none;
+		position: fixed;
+		z-index: 9999;
+		padding-top: 3em;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		background-color: $background_shade;
+}
+.modal-content {
+		background-color: $brand-color-l;
+		margin: auto;
+		padding: 10px;
+		border: 2px solid $hint;
+		border-radius: 5px;
+		width: 80%;
 }
