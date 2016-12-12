@@ -6,6 +6,9 @@
 	background: linear-gradient($background_shade, $trans);
 	padding: $spacing-unit 0;
 }
+.shade {
+	background: linear-gradient($trans, $background_shade);
+}
 
 .ads {
 	@include row;
@@ -265,4 +268,13 @@ hr {
 		border: 2px solid $hint;
 		border-radius: 5px;
 		width: 80%;
+}
+
+.thefoot {
+	padding-bottom: 1rem;
+}
+
+.puchline {
+	font-size: .7em;
+	letter-spacing: .4rem;
 }

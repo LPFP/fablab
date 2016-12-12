@@ -93,3 +93,4 @@
 
 // rainbowize the title
 $('span.lpfpfonts').rainbowize();
+$('#puchline').rainbowize();
