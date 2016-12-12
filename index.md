@@ -18,6 +18,7 @@ Ouvert le week-end et certains soirs en semaine par des FabManagers bénévoles 
 # Comment venir au Fablab?
 
 Avant de venir, vérifier sur le calendrier les horaires et présences.
+
 #### portes ouverte: Samedi et Dimanche de 14h à 16h
 
 >C’est une première approche conseillé, un membre du fablab sera présent pour répondre à vos questions.
