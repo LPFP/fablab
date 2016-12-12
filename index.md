@@ -3,8 +3,6 @@ layout: home
 title: le petit fablab de paris
 ---
 
-# Petit mot du Petit Fab
-
 #### Le Petit FabLab de Paris est un atelier de fabrication numérique dédié aux créations collaboratives et de bien commun.
 
 >Les locaux se destinent à accueillir aussi bien des bricoleurs et bricoleuses expérimentés que les simples curieux et curieuses. Nous organisons régulièrement des formations et initiations ouvertes à tous.
@@ -20,9 +18,11 @@ Ouvert le week-end et certains soirs en semaine par des FabManagers bénévoles 
 # Comment venir au Fablab?
 
 Avant de venir, vérifier sur le calendrier les horaires et présences.
-**portes ouverte :** Samedi et Dimanche de 14h à 16h
+#### portes ouverte: Samedi et Dimanche de 14h à 16h
 
 >C’est une première approche conseillé, un membre du fablab sera présent pour répondre à vos questions.
+>**<i class="fa fa-map-marker"></i>** {{ site.author.adr }}
+>**<i class="fa fa-mobile"></i>** {{ site.author.tel }}
 
 {% include map.html %}
 

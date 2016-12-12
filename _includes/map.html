@@ -11,35 +11,32 @@
 		style: 'mapbox://styles/mapbox/streets-v9',
 		center: [{{ site.mlatlng[1] }}, {{ site.mlatlng[0] }}],
 		zoom: {{ site.zoom }},
-		scrollZoom: false,
-		attributionControl: true
+		scrollZoom: false
 		});
 
-	var nav = new mapboxgl.Navigation({position: 'bottom-right'});
+	var nav = new mapboxgl.NavigationControl();
 	mapbx.addControl(nav);
 
-	var drive = new mapboxgl.Directions({
-		position: 'top-right',
-		unit: 'metric',
-		controls: {
-			inputs: true,
-			instructions: false
-		},
+	var directions = new MapboxDirections({
+		accessToken: mapboxgl.accessToken,
+		unit: 'metric'
 	});
-	mapbx.addControl(drive);
+	mapbx.addControl(directions, 'top-left');
 
 	mapbx.on('load', function() {
-		// drive.setOrigin([{{ site.mlatlng[1] }}, {{ site.mlatlng[0] }}]);
-		// drive.setDestination([2.391801, 48.854942]);
+		// directions.setOrigin('{{ site.author.adr }}');
+		// directions.setDestination([{{ site.mlatlng[1] }}, {{ site.mlatlng[0] }}]);
 	});
 
 	var mly_pkey = '{{ site.mly_pkey}}';
 	var mapiClientId = '{{ site.token.mapillary }}';
+
 	mapbx.on('style.load', function (e) {
-		// console.log(e.style.sprite);
+
 		var host = 'https://a.mapillary.com/v2/';
 		var mlyreqim = 'im/';
 		var mapyim = host + mlyreqim + mly_pkey + '/geojson?client_id=' + mapiClientId;
+
 		$.get(mapyim, function (resp) {
 			console.log(resp.features[0]);
 			mapbx.setCenter([
@@ -50,7 +47,6 @@
 			resp.features.forEach(function(marker) {
 				var el = document.createElement('div');
 				el.className = 'pkey-sbig';
-				// el.style.WebkitTransform = 'rotate(' + marker.properties.ca + 'deg)';
 				el.addEventListener('click', function() {
 
 					var modal = document.getElementById('mapIllary');
@@ -64,14 +60,6 @@
 							modal.style.display = "none";
 						}
 					}
-
-					// $("#mapIllary").modal()
-					// function MapResize() {
-					//	 mly.resize();
-					// }
-					// $("#mapIllary").on('shown.bs.modal', function () {
-					//	 mly.resize();
-					// });
 				});
 
 				new mapboxgl.Marker(el, {
