@@ -37,8 +37,6 @@ Les Fab Labs sont un réseau mondial de laboratoires locaux, qui dopent l’inve
 
 ![<>](https://lpfp.github.io/assets/img/tmp/fablab.png)
 
-
-
 * Charte des fablab [US](http://fab.cba.mit.edu/about/charter/), [FR](http://imaginationforpeople.org/wiki/workgroup/fablab-fr/charte_v2)
 * Obtenir le label [FabLab](http://wiki.fablab.is/wiki/ConditionsForFabLabLabel)
 * Le Petit Fablab de Paris sur [FabLabs.io](https://www.fablabs.io/lepetitfablabdeparis)
@@ -51,30 +49,31 @@ Les Fab Labs sont un réseau mondial de laboratoires locaux, qui dopent l’inve
 * Depuis 2016 LPFP est hébergé par l'association AGECA.
 * LPFP propose des ateliers collaboratifs dédié aux créations de bien commun.
 
+---
 
 # Créer au lab
 
->Une solution :
+>On se connais déjà un peu mais je voudrais aller plus loin!
 
-adhérer à l’association et devenir membre (120€/an, 60€/an au tarif solidaire) : vous recevrez une formation et pourrez utiliser les machines pendant les heures d’ouverture. Les créations doivent être conçus pour être reproductibles et s’appuieront sur des licences libres du type CC-BY.
+{% include lpfp.html %}
 
+>Nos machines et outils à titre indicatif
 
-Nous n’imposons pas de critère aux créations du moment qu’il restent dans un cadre raisonnable de légalité et de sécurité.
-Toute personne peut venir travailler (seule ou en groupe) et profiter des ressources matérielles et humaines de l’atelier.
-Plus d’infos sur nos machines ici : équipement du fablab
+{% include machine.html %}
+
+---
 
 >Je cherche un stage, vous m’accueillez ?
 
-Malheureusement, vu nos horaires et nos moyens logistiques, il n’est pas possible d’accueillir décemment un stagiaire parmi nous !
+#### Malheureusement, vu nos horaires et nos moyens logistiques, il nous est pas possible d’accueillir un stagiaire :disappointed_relieved:
 
->Je suis étudiant, designer etc et je voudrais imprimer / découper une pièce comment faire?
+>Je suis étudiant, designer etc et je voudrais utiliser vos machines ou votre local comment faire?
 
-Dans notre structure associative, nous ne faisons plus de prestations.
-Si vous souhaitez utiliser nos machines ponctuellement, nous fonctionnons sur principe de contreparties et vous devrez participer à la vie du lieu. Cela se fera au cas par cas, et une réflexion en amont sera faites avec un membre du fablab au moins un mois à l’avance
-Par conséquent, les projets de dernière minutes seront systématiquement refusés.
+Si vous souhaitez utiliser nos machines ponctuellement, nous fonctionnons sur principe de contreparties et vous devrez participer à la vie du lieu (être membre de l'asso). En ce qui concerne les lieux, cela se fera au cas par cas, et une réflexion en amont sera faites avec les membres du fablab au moins un mois à l’avance; par conséquent, les projets de dernière minutes seront systématiquement refusés.
 
+#### TL;DR :point_right: Nous sommes une structure associative, nous ne faisons pas de prestations :cold_sweat:
 
-
+---
 
 # Les ateliers LPFP
 À qui s’adresse les ateliers? est-ce que je peux venir?

@@ -1,0 +1,14 @@
+<div class="asso-col-wrapper">
+	{% for i in site.data.asso %}
+
+	<div class="asso-col asso-col-1 alcenter">
+		<center><div class="bignum">{{ i.step }}</div></center>
+	</div>
+
+	<div class="asso-col asso-col-2">
+		<b>{{ i.punchline }}</b><br>
+		{{ i.content }}
+	</div>
+
+	{% endfor %}
+</div>

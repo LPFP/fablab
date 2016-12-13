@@ -308,3 +308,123 @@ hr {
 	font-size: .7em;
 	letter-spacing: .4rem;
 }
+
+/*
+ * MACHINES
+ */
+
+.machine-col-wrapper {
+	font-size: 1em;
+	color: $text-color;
+	margin-top: 2em;
+	margin-left: $spacing-unit / 2;
+	@extend %clearfix;
+}
+
+.machine-col {
+	float: left;
+	margin-bottom: $spacing-unit / 2;
+}
+
+.machine-col-1 {
+	width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+	width:				 calc(33% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+	.machine-col {
+		float: none;
+		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+		width:				 calc(100% - (#{$spacing-unit} / 2));
+	}
+}
+
+.machine-item {
+	border: solid 1px $trans;
+	border-radius: 5px;
+	margin: 10px;
+	padding-bottom: 20px;
+}
+
+.machine-item:hover {
+	border: solid 1px $brand-color;
+	border-radius: 5px;
+	margin: 10px;
+	padding-bottom: 20px;
+	-webkit-box-shadow: 0 0 5px 1px $brand-color-l;
+	-moz-box-shadow: 0 0 5px 1px $brand-color-l;
+	box-shadow: 0 0 5px 1px $brand-color-l;
+}
+
+.machine-item-tag {
+	text-transform: lowercase;
+
+	span {
+		background-color: $background-cell;
+		border-radius: 3px;
+		margin: 1px 4px;
+		padding: .5px 8px;
+		color: $text-bq;
+
+		&:hover {
+			background-color: darken($background-cell, 15%);
+			cursor: default;
+		}
+	}
+}
+
+/*
+ * ASSO
+ */
+
+.asso-col-wrapper {
+	// font-size: 1em;
+	color: $text-color;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: $spacing-unit / 2;
+	@extend %clearfix;
+}
+
+.asso-col {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: $spacing-unit / 2;
+}
+
+.asso-col-1 {
+	width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+	width:				 calc(25% - (#{$spacing-unit} / 2));
+}
+
+.asso-col-2 {
+	width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+	width:				 calc(75% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+	.asso-col {
+		float: none;
+		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+		width:				 calc(100% - (#{$spacing-unit} / 2));
+	}
+}
+
+.bignum {
+	border-radius: 50%;
+	behavior: url(PIE.htc);
+
+	width: 42px;
+	height: 42px;
+// 	padding: 8px;
+
+	background: $brand-color;
+	border: 2px solid $brand-color;
+	color: $brand-color-l;
+	text-align: center;
+
+	font: 32px Arial, sans-serif;
+	text-shadow:	0px 4px 3px rgba(0,0,0,0.4),
+								0px 8px 13px rgba(0,0,0,0.1),
+								0px 18px 23px rgba(0,0,0,0.1);
+}
