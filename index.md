@@ -73,27 +73,29 @@ Si vous souhaitez utiliser nos machines ponctuellement, nous fonctionnons sur pr
 
 #### TL;DR :point_right: Nous sommes une structure associative, nous ne faisons pas de prestations :cold_sweat:
 
+>J'aimerais rentrer en contact avec vous!
+
+#### Merci de votre attention, cependant, assurez-vous que la réponse à votre question ne se trouve pas déjà sur cette page
+
+<center>{{ site.email }}</center>
+
 ---
 
 # Les ateliers LPFP
-À qui s’adresse les ateliers? est-ce que je peux venir?
-Les ateliers sont à destination de tous
-Ou puis-je trouver les dates et programme pour m’inscrire?
-Pour vous tenir au courant nous vous invitons à visiter notre calendrier.
-J’ai une idée pour un atelier! Comment la concrétiser?
-Vous maîtrisez un domaine vous souhaitez le partager, “bravo”!
-Il est parfois difficile de s’organiser, nous vous invitons à venir en discuter lors des portes ouvertes.
 
+>Sans inscription, les ateliers sont ouvert à toutes et à tous, souvent à prix libre!
+
+#### Voir les informations sur notre calendrier, flyer ou newsletters
+
+>Vous souhaitez organiser chez nous un atelier, venez en discuter lors des portes ouvertes ou par mail
+>{{ site.email }}
+
+---
 
 # Un Brin de philosophie
-Nous pensons que l'association LPFP peut être une source d’inspiration à la confluence des Arts, des Sciences et de la Philosophie. Notre association, depuis ses débuts, met en avant une certaine idée de la diversité.
-Nous souhaitons faire le lien et soutenir celles et ceux qui veulent partager et le tout-venant dont le désir est d’en savoir plus. Ce souhait, dois pouvoir écarter le plus possible toutes barrières d’accès, notamment celle financières.
-Fondé sur un principe d'accès a toutes et à tous aux savoirs techniques et artisanaux, LPFP s'attache à créer un espace d'auto-formation propice à l'autonomie.
 
->J'aimerais rentrer en contact avec vous!
+>Notre association, depuis ses débuts, met en avant une certaine idée de la diversité.
 
-Et vous êtes nombreux à le faire ! Ainsi, assurez-vous que la réponse à votre question ne se trouve pas déjà sur cette page !
+Nous aimons à penser que l'association prends sa source d’inspiration à la confluence des Arts, des Sciences et de la Philosophie. Nous souhaitons faire le lien et soutenir celles et ceux qui veulent partager avec le tout-venant dont le désir est d’en savoir plus.
 
-Mais d'où venons nous?
-de 2012 à aujourd'hui
-Voir notre résumé des événements passés
+Un de nos principe est l'accès à toutes et à tous aux savoirs techniques et artisanaux dans un espace propice à l'autonomie
