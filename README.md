@@ -50,11 +50,3 @@ python -m SimpleHTTPServer 8000
 # libs
 
 [fullcalendar](https://fullcalendar.io/docs/)
-
-# growth hacking
-
-- mixpanel.com
-- optimizely.com
-- freeboard.github.io
-- keen.github.io
-- https://tree.taiga.io/project/robyremzy-lpfp-sw/backlog
