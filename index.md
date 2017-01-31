@@ -35,7 +35,7 @@ hat: >
 # Les Fablab en France et ailleurs
 Les Fab Labs sont un réseau mondial de laboratoires locaux, qui dopent l’inventivité en donnant accès à des outils de fabrication numérique.
 
-![<>](https://lpfp.github.io/assets/img/tmp/fablab.png)
+<center><img src="{{ "/assets/img/fabcity.png" | relative_url }}" /></center>
 
 * Charte des fablab [US](http://fab.cba.mit.edu/about/charter/), [FR](http://imaginationforpeople.org/wiki/workgroup/fablab-fr/charte_v2)
 * Obtenir le label [FabLab](http://wiki.fablab.is/wiki/ConditionsForFabLabLabel)
