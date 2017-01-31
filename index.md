@@ -6,7 +6,7 @@ hat: >
   dédié aux créations collaboratives et de bien commun.
 ---
 
-# Note local
+# Notre local
 
 >Le local se destine à accueillir aussi bien des bricoleurs et bricoleuses expérimentés que les simples curieux et curieuses. Nous organisons régulièrement des formations et initiations ouvertes à tous.
 

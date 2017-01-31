@@ -1,13 +1,15 @@
 # Jekyll page
 
+```bash
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/LPFP/fablab.git
 git push -u origin master
+```
 
-[Download](https://github.com/LPFP/LPFP.github.io/archive/master.zip)
-or
+or [Download the project](https://github.com/LPFP/LPFP.github.io/archive/master.zip)
+
 
 ```bash
 git clone https://github.com/LPFP/LPFP.github.io.git
@@ -17,8 +19,6 @@ git clone https://github.com/LPFP/LPFP.github.io.git
 bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
-
-
 
 ### if you need Ruby
 
@@ -38,6 +38,23 @@ bundle exec jekyll serve
 ```
 >ouvrir votre navigateur à l'adresse [http://localhost:4000/](http://localhost:4000/)
 
+Show and tell on lan
+
+```shell
+cd _site/
+python -m SimpleHTTPServer 8000
+```
+
+>ouvrir votre navigateur à l'adresse [http://192.168.0.14:8000/](http://192.168.0.14:8000/)
+
 # libs
 
 [fullcalendar](https://fullcalendar.io/docs/)
+
+# growth hacking
+
+- mixpanel.com
+- optimizely.com
+- freeboard.github.io
+- keen.github.io
+- https://tree.taiga.io/project/robyremzy-lpfp-sw/backlog

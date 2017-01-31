@@ -8,7 +8,8 @@ logo: /assets/img/LPFP_square_logo.png
 favicon: /assets/img/favicon.ico
 email: bonjour (at) lepetitfablabdeparis.fr
 
-baseurl: /fablab
+baseurl: ""
+#baseurl: /fablab
 url: ""
 
 # GitHub
